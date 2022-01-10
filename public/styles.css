@@ -1,0 +1,40 @@
+nav {
+  background-color: rgb(172, 153, 153);
+  color: #fff;
+  padding: 30px 60px;
+  display: flex;
+  justify-content: space-between; /* to put the elements in same line diff place */
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav li {
+  list-style: none;
+}
+
+nav li a {
+  color: #fff;
+  text-decoration: none; /* removes blue underline*/
+  font-weight: bold;
+  padding: 5px 8px;
+}
+
+nav li a:hover {
+  color: rgb(16, 19, 194);
+  text-decoration: none;
+}
+
+.avatar-ctn{
+  background-color: rgb(216, 170, 170);
+  text-align: center;
+}
+
+.avatar{
+  width: 65%;
+  border-bottom: 1px solid rgba(0,0,0,0.125);
+
+}
